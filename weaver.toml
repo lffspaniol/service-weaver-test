@@ -1,0 +1,9 @@
+[serviceweaver]
+binary = "./service-weaver-test"
+
+[single]
+listeners.books = {address = "localhost:12345"}
+
+[multi]
+listeners.books = {address = "localhost:12345"}
+
